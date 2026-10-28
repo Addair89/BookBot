@@ -40,7 +40,6 @@ _The roadmap is subject to change as development and learning progress._
 ### Prerequisites
 
 - Python 3 installed on your system
-- A plain-text file to analyze
 
 ### Installation
 
@@ -53,15 +52,27 @@ cd BookBot
 
 ### Run BookBot
 
-Pass the path to a text file as a command-line argument:
+BookBot includes three books you can use to test the program. Run any of the following commands from the project root directory.
+
+**Book 1**
 
 ```bash
-python3 main.py books/YOUR_BOOK.txt
+python3 main.py books/frankenstein.txt
 ```
 
-Replace `YOUR_BOOK.txt` with the name of a text file in the `books` directory.
+**Book 2**
 
-BookBot will read the file, analyze its contents, and print a report to the terminal.
+```bash
+python3 main.py books/mobydick.txt
+```
+
+**Book 3**
+
+```bash
+python3 main.py books/prideandprejudice.txt
+```
+
+Each command analyzes the selected book and prints its word count and character frequency report directly to the terminal.
 
 ## Example Output
 
